@@ -5,5 +5,5 @@ echo "Perform Operation in su mode"
 export NODE_ENV=production
 echo "NODE_ENV set"
 sudo pm2 kill
-sudo pm2 start -f $script_dir/../../server.js
+sudo pm2 start -f /deployTemp/drop/server.js
 # continue your compilation commands here
